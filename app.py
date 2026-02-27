@@ -23,7 +23,6 @@ LAST_CONV_LAYER = "Conv_1"
 
 model = tf.keras.models.load_model(MODEL_PATH)
 
-# Load Disease Database
 with open("diseaseMaster.json", "r") as f:
     DISEASE_DB = json.load(f)
 
@@ -34,7 +33,16 @@ CLASS_NAMES = list(DISEASE_DB.keys())
 # =========================
 
 app = Flask(__name__)
-CORS(app)
+
+# Strong CORS fix for Render + localhost
+CORS(app, supports_credentials=True)
+
+@app.after_request
+def after_request(response):
+    response.headers.add("Access-Control-Allow-Origin", "*")
+    response.headers.add("Access-Control-Allow-Headers", "Content-Type,Authorization")
+    response.headers.add("Access-Control-Allow-Methods", "GET,POST,OPTIONS")
+    return response
 
 # =========================
 # Preprocess
@@ -72,11 +80,22 @@ def make_gradcam_heatmap(img_array, model, last_conv_layer_name, pred_index=None
     return heatmap.numpy()
 
 # =========================
+# Health Check Route
+# =========================
+
+@app.route("/", methods=["GET"])
+def home():
+    return jsonify({"status": "Backend running"}), 200
+
+# =========================
 # Prediction Route
 # =========================
 
-@app.route("/predict", methods=["POST"])
+@app.route("/predict", methods=["POST", "OPTIONS"])
 def predict():
+
+    if request.method == "OPTIONS":
+        return jsonify({"status": "OK"}), 200
 
     if "file" not in request.files:
         return jsonify({"error": "No file uploaded"}), 400
@@ -87,7 +106,6 @@ def predict():
     input_tensor = preprocess(img)
     preds = model.predict(input_tensor)[0]
 
-    # 🔥 Safety check
     if len(preds) != len(CLASS_NAMES):
         return jsonify({
             "error": f"Model output size ({len(preds)}) does not match CLASS_NAMES ({len(CLASS_NAMES)})"

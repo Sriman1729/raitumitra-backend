@@ -1,0 +1,302 @@
+{
+  "Apple___Apple_scab": {
+    "severity": "Moderate",
+    "suggested_actions": [
+      "Collect and destroy fallen infected leaves",
+      "Prune tree to improve airflow",
+      "Spray Mancozeb 2g per liter every 7 days",
+      "Avoid overhead irrigation"
+    ]
+  },
+  "Apple___Black_rot": {
+    "severity": "High",
+    "suggested_actions": [
+      "Remove mummified fruits immediately",
+      "Prune infected branches",
+      "Spray Captan fungicide as recommended",
+      "Maintain orchard sanitation"
+    ]
+  },
+  "Apple___Cedar_apple_rust": {
+    "severity": "Moderate",
+    "suggested_actions": [
+      "Remove nearby juniper host plants",
+      "Spray sulfur-based fungicide",
+      "Ensure proper spacing between trees"
+    ]
+  },
+  "Apple___healthy": {
+    "severity": "Low",
+    "suggested_actions": [
+      "Continue regular monitoring",
+      "Apply seasonal balanced fertilizer",
+      "Maintain pruning schedule"
+    ]
+  },
+  "Blueberry___healthy": {
+    "severity": "Low",
+    "suggested_actions": [
+      "Maintain soil pH between 4.5–5.5",
+      "Apply organic mulch",
+      "Inspect plants weekly"
+    ]
+  },
+  "Cherry_(including_sour)___Powdery_mildew": {
+    "severity": "Moderate",
+    "suggested_actions": [
+      "Spray neem oil weekly",
+      "Apply sulfur fungicide",
+      "Reduce excess nitrogen fertilizer",
+      "Improve air circulation"
+    ]
+  },
+  "Cherry_(including_sour)___healthy": {
+    "severity": "Low",
+    "suggested_actions": [
+      "Maintain orchard hygiene",
+      "Apply compost annually"
+    ]
+  },
+  "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot": {
+    "severity": "Moderate",
+    "suggested_actions": [
+      "Rotate crops annually",
+      "Remove infected residues",
+      "Spray Azoxystrobin fungicide"
+    ]
+  },
+  "Corn_(maize)___Common_rust_": {
+    "severity": "Low",
+    "suggested_actions": [
+      "Spray Mancozeb 2g per liter",
+      "Use resistant hybrids next season",
+      "Apply balanced NPK"
+    ]
+  },
+  "Corn_(maize)___Northern_Leaf_Blight": {
+    "severity": "Moderate",
+    "suggested_actions": [
+      "Practice crop rotation",
+      "Spray Chlorothalonil",
+      "Remove infected leaves"
+    ]
+  },
+  "Corn_(maize)___healthy": {
+    "severity": "Low",
+    "suggested_actions": [
+      "Regular crop monitoring",
+      "Follow soil-test based fertilization"
+    ]
+  },
+  "Grape___Black_rot": {
+    "severity": "High",
+    "suggested_actions": [
+      "Remove infected berries immediately",
+      "Spray Mancozeb or Captan",
+      "Improve trellis ventilation"
+    ]
+  },
+  "Grape___Esca_(Black_Measles)": {
+    "severity": "High",
+    "suggested_actions": [
+      "Prune infected vines",
+      "Apply Carbendazim fungicide",
+      "Avoid vine injuries"
+    ]
+  },
+  "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": {
+    "severity": "Moderate",
+    "suggested_actions": [
+      "Spray Copper fungicide",
+      "Avoid leaf wetness",
+      "Improve airflow"
+    ]
+  },
+  "Grape___healthy": {
+    "severity": "Low",
+    "suggested_actions": [
+      "Maintain pruning schedule",
+      "Apply farmyard manure annually"
+    ]
+  },
+  "Orange___Haunglongbing_(Citrus_greening)": {
+    "severity": "High",
+    "suggested_actions": [
+      "Remove infected trees immediately",
+      "Control psyllids using neem oil",
+      "Apply Imidacloprid soil treatment",
+      "Use certified disease-free saplings"
+    ]
+  },
+  "Peach___Bacterial_spot": {
+    "severity": "Moderate",
+    "suggested_actions": [
+      "Spray Copper oxychloride",
+      "Avoid overhead irrigation",
+      "Prune infected branches"
+    ]
+  },
+  "Peach___healthy": {
+    "severity": "Low",
+    "suggested_actions": [
+      "Regular inspection",
+      "Apply compost yearly"
+    ]
+  },
+  "Pepper,_bell___Bacterial_spot": {
+    "severity": "Moderate",
+    "suggested_actions": [
+      "Spray Copper oxychloride 2g/L",
+      "Remove infected leaves",
+      "Use certified seeds"
+    ]
+  },
+  "Pepper,_bell___healthy": {
+    "severity": "Low",
+    "suggested_actions": [
+      "Maintain proper plant spacing",
+      "Apply balanced fertilizer"
+    ]
+  },
+  "Potato___Early_blight": {
+    "severity": "Moderate",
+    "suggested_actions": [
+      "Remove infected leaves",
+      "Spray Mancozeb weekly",
+      "Apply potash fertilizer",
+      "Avoid overhead irrigation"
+    ]
+  },
+  "Potato___Late_blight": {
+    "severity": "High",
+    "suggested_actions": [
+      "Spray Metalaxyl + Mancozeb immediately",
+      "Improve drainage",
+      "Avoid excess nitrogen fertilizer"
+    ]
+  },
+  "Potato___healthy": {
+    "severity": "Low",
+    "suggested_actions": [
+      "Field monitoring",
+      "Follow soil-test fertilizer plan"
+    ]
+  },
+  "Raspberry___healthy": {
+    "severity": "Low",
+    "suggested_actions": [
+      "Proper pruning",
+      "Apply compost annually"
+    ]
+  },
+  "Soybean___healthy": {
+    "severity": "Low",
+    "suggested_actions": [
+      "Use Rhizobium inoculant",
+      "Apply phosphorus fertilizer"
+    ]
+  },
+  "Squash___Powdery_mildew": {
+    "severity": "Moderate",
+    "suggested_actions": [
+      "Spray neem oil weekly",
+      "Apply sulfur fungicide",
+      "Increase airflow"
+    ]
+  },
+  "Strawberry___Leaf_scorch": {
+    "severity": "Moderate",
+    "suggested_actions": [
+      "Remove infected leaves",
+      "Spray Copper fungicide",
+      "Avoid wet foliage"
+    ]
+  },
+  "Strawberry___healthy": {
+    "severity": "Low",
+    "suggested_actions": [
+      "Apply mulch",
+      "Use potassium-rich fertilizer"
+    ]
+  },
+  "Tomato___Bacterial_spot": {
+    "severity": "Moderate",
+    "suggested_actions": [
+      "Spray Copper oxychloride",
+      "Remove infected leaves",
+      "Use certified seeds"
+    ]
+  },
+  "Tomato___Early_blight": {
+    "severity": "Moderate",
+    "suggested_actions": [
+      "Remove lower infected leaves",
+      "Spray Mancozeb weekly",
+      "Ensure proper spacing",
+      "Apply potassium sulfate"
+    ]
+  },
+  "Tomato___Late_blight": {
+    "severity": "High",
+    "suggested_actions": [
+      "Spray Metalaxyl combination immediately",
+      "Improve drainage",
+      "Avoid overhead watering"
+    ]
+  },
+  "Tomato___Leaf_Mold": {
+    "severity": "Moderate",
+    "suggested_actions": [
+      "Improve greenhouse ventilation",
+      "Spray Chlorothalonil",
+      "Reduce humidity levels"
+    ]
+  },
+  "Tomato___Septoria_leaf_spot": {
+    "severity": "Moderate",
+    "suggested_actions": [
+      "Remove infected leaves",
+      "Spray Copper fungicide",
+      "Avoid leaf wetness"
+    ]
+  },
+  "Tomato___Spider_mites Two-spotted_spider_mite": {
+    "severity": "Moderate",
+    "suggested_actions": [
+      "Spray neem oil",
+      "Use Abamectin if infestation severe",
+      "Maintain proper humidity"
+    ]
+  },
+  "Tomato___Target_Spot": {
+    "severity": "Moderate",
+    "suggested_actions": [
+      "Remove affected leaves",
+      "Spray Chlorothalonil",
+      "Ensure airflow"
+    ]
+  },
+  "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+    "severity": "High",
+    "suggested_actions": [
+      "Remove infected plants immediately",
+      "Control whiteflies using Imidacloprid",
+      "Use resistant varieties next season"
+    ]
+  },
+  "Tomato___Tomato_mosaic_virus": {
+    "severity": "High",
+    "suggested_actions": [
+      "Remove infected plants",
+      "Disinfect tools regularly",
+      "Avoid tobacco contact while handling plants"
+    ]
+  },
+  "Tomato___healthy": {
+    "severity": "Low",
+    "suggested_actions": [
+      "Continue monitoring",
+      "Apply fertilizer based on soil test"
+    ]
+  }
+}
